@@ -2,9 +2,11 @@ body {
     margin: 0;
     display: flex;
     flex-direction: column;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .header, .main-content {
+    background-color: #1F2937; 
     padding: 0 250px;
 }
 
@@ -12,6 +14,8 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    font-size: 24px;
+    color: #F9FAF8;
 }
 
 .link-list {
@@ -39,4 +43,11 @@ a {
     display: flex;
     padding-top: 100px;
     padding-bottom: 100px;
+    color: #E5E7EB;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
 }
