@@ -9,16 +9,19 @@ body > * {
     padding: 0 250px;
 }
 
-.header, .main-content {
+.header, .main-content, .footer {
     background-color: #1F2937; 
 }
 
-.header {
+.header, .footer {
     display: flex;
-    justify-content: space-between;
     align-items: center;
     font-size: 24px;
     color: #F9FAF8;
+}
+
+.header {
+    justify-content: space-between;
 }
 
 .link-list {
@@ -130,4 +133,10 @@ h2 {
 
 .main-content .sign-up-button {
     border: none;
+}
+
+.footer {
+    justify-content: center;
+    padding: 24px 0;
+    color: #E5E7EB;
 }
