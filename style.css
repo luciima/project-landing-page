@@ -35,10 +35,6 @@ a {
     flex: auto;
 }
 
-.main-content div {
-    flex: 1;
-}
-
 .main-content {
     display: flex;
     padding-top: 100px;
@@ -50,4 +46,26 @@ h1 {
     font-size: 48px;
     font-weight: bolder;
     color: #F9FAF8;
+}
+
+.random-info, .quote-section {
+    padding: 0 300px;
+}
+
+.carousel {
+    display: flex;
+    gap: 32px;
+}
+
+.square-image img {
+    border: 3px solid #3882F6;
+    border-radius: 24px;
+    max-width: 100%;
+}
+
+.square-image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 25%;
 }
