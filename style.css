@@ -5,9 +5,12 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+body > * {
+    padding: 0 250px;
+}
+
 .header, .main-content {
     background-color: #1F2937; 
-    padding: 0 250px;
 }
 
 .header {
@@ -37,6 +40,7 @@ a {
 
 .main-content {
     display: flex;
+    gap: 56px;
     padding-top: 100px;
     padding-bottom: 100px;
     color: #E5E7EB;
@@ -96,4 +100,34 @@ h2 {
 .signature {
     text-align: right;
     font-weight: bold;
+}
+
+.sign-up-section {
+    background-color: #3882F6;
+    border-radius: 8px;
+    padding: 32px 80px;
+    margin: 150px 300px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sign-up-section strong {
+    font-size: 28px;
+}
+
+.sign-up-button {
+    border-radius: 5px;
+    background-color: #3882F6;
+    color: white;
+    padding: 8px 32px;
+}
+
+.sign-up-section .sign-up-button {
+    border: 2px solid white;
+}
+
+.main-content .sign-up-button {
+    border: none;
 }
